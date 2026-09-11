@@ -65,8 +65,9 @@ vectorizer = TfidfVectorizer(
     lowercase=True,
     stop_words="english",
     ngram_range=(1, 2),
-    min_df=2,
-    max_features=30000
+    min_df=3,
+    max_features=8000,
+    dtype=np.float32 
 )
 
 customer_vectors = vectorizer.fit_transform(
