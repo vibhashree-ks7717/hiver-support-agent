@@ -1,0 +1,179 @@
+================================================================================
+WINDOWS QUICK START - AI CUSTOMER SUPPORT AGENT
+================================================================================
+
+YOUR FILES ARE HERE (in the outputs folder):
+  https://claude.ai/files/outputs/
+
+DOWNLOAD ALL THESE FILES:
+  ✓ support_agent_demo.py
+  ✓ response_database.json
+  ✓ requirements.txt
+  ✓ README.md
+  ✓ EXECUTIVE_SUMMARY.md
+  ✓ All other .py and .md files
+
+================================================================================
+STEP 1: CREATE PROJECT FOLDER
+================================================================================
+
+Open PowerShell and run:
+
+mkdir C:\Users\User\support_agent
+cd C:\Users\User\support_agent
+
+This creates folder: C:\Users\User\support_agent\
+
+================================================================================
+STEP 2: PUT FILES IN THE FOLDER
+================================================================================
+
+Download all files from the outputs folder and save them to:
+  C:\Users\User\support_agent\
+
+You should see:
+  C:\Users\User\support_agent\
+  ├── support_agent_demo.py
+  ├── support_agent.py
+  ├── data_processor.py
+  ├── evaluation.py
+  ├── response_database.json
+  ├── requirements.txt
+  ├── README.md
+  └── [other files]
+
+================================================================================
+STEP 3: INSTALL DEPENDENCIES
+================================================================================
+
+In PowerShell, run:
+
+cd C:\Users\User\support_agent
+pip install -r requirements.txt
+
+This installs:
+  - anthropic
+  - pandas
+  - numpy
+  - scikit-learn
+
+================================================================================
+STEP 4: RUN THE DEMO
+================================================================================
+
+In PowerShell, run:
+
+python support_agent_demo.py
+
+You should see output like:
+
+✓ Agent initialized (DEMO MODE) with 8 intent categories
+
+TESTING AI CUSTOMER SUPPORT AGENT (DEMO MODE)
+
+📝 Message #1
+Customer: Where is my order? I ordered it 3 days ago...
+
+✓ Classification: Order Status
+  Confidence: 95%
+
+💬 Reply: Thanks for reaching out!...
+
+🚀 Decision: AUTO_HANDLE
+  Reason: Routine inquiry - can be auto-handled
+  Time: 0.04ms
+
+================================================================================
+STEP 5: RUN FULL EVALUATION (OPTIONAL)
+================================================================================
+
+If you want to use Claude API (with your API key):
+
+python evaluation.py
+
+This will:
+  - Evaluate on 15 test cases
+  - Score replies with LLM judge
+  - Generate evaluation_report.json
+  - Takes 2-3 minutes
+
+================================================================================
+COMMON ISSUES & FIXES
+================================================================================
+
+ISSUE: "ModuleNotFoundError: No module named 'anthropic'"
+FIX:
+  pip install -r requirements.txt
+
+ISSUE: "python: command not found"
+FIX:
+  You need to install Python from https://www.python.org/
+  Make sure to check "Add Python to PATH" during installation
+  Then restart PowerShell
+
+ISSUE: "support_agent_demo.py: No such file"
+FIX:
+  Make sure you're in the right folder:
+    cd C:\Users\User\support_agent\
+    ls
+  You should see support_agent_demo.py in the list
+
+ISSUE: "Cannot find path because it does not exist"
+FIX:
+  The folder doesn't exist. Create it first:
+    mkdir C:\Users\User\support_agent
+
+================================================================================
+QUICK COMMANDS
+================================================================================
+
+Show current folder:
+  pwd
+
+List files:
+  ls
+
+Navigate to folder:
+  cd C:\Users\User\support_agent
+
+Go back one folder:
+  cd ..
+
+Run Python file:
+  python filename.py
+
+Install packages:
+  pip install -r requirements.txt
+
+Check API key is set:
+  echo $env:ANTHROPIC_API_KEY
+
+================================================================================
+FIRST RUN CHECKLIST
+================================================================================
+
+[ ] Create folder: mkdir C:\Users\User\support_agent
+[ ] Download all files from outputs folder
+[ ] Put files in C:\Users\User\support_agent\
+[ ] Open PowerShell
+[ ] cd C:\Users\User\support_agent
+[ ] pip install -r requirements.txt
+[ ] python support_agent_demo.py
+
+When demo runs successfully, you'll see 5 customer messages
+get classified, replied to, and routed.
+
+================================================================================
+YOU'RE READY!
+================================================================================
+
+Once you see the demo output, you can:
+
+1. Read EXECUTIVE_SUMMARY.md (explains what it does)
+2. Read README.md (full documentation)
+3. Read DECISION_LOG.md (design decisions)
+4. Review the Python code (350-550 lines each, well-commented)
+5. Run full evaluation (python evaluation.py)
+
+Good luck! 🚀
+

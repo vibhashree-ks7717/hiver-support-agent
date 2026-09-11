@@ -1,0 +1,4 @@
+model,accuracy,macro_f1
+Majority Class,0.06,0.014150943396226414
+TF-IDF + Logistic Regression,0.65,0.6504898744530647
+TF-IDF + Linear SVM,0.675,0.6739446417731007

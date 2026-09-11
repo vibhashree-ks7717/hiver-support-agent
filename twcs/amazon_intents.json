@@ -1,0 +1,80 @@
+{
+  "Delivery & Order Tracking": {
+    "description": "Issues involving delayed, missing, or incorrectly tracked orders and delivery dates.",
+    "examples": [
+      "My order hasn't arrived yet",
+      "Where is my package?",
+      "The tracking says delivered but I didn't receive it",
+      "My delivery is late"
+    ]
+  },
+
+  "Returns & Refunds": {
+    "description": "Requests or problems involving product returns, refunds, seller refunds, and A-to-Z claims.",
+    "examples": [
+      "I want to return this product",
+      "I haven't received my refund",
+      "The seller received my return but hasn't refunded me",
+      "How do I get a refund?"
+    ]
+  },
+
+  "Account & Access": {
+    "description": "Problems accessing or using an Amazon account, including locked accounts and verification or 2FA issues.",
+    "examples": [
+      "My account is locked",
+      "I can't log into my account",
+      "I can't complete 2FA",
+      "Why was my account restricted?"
+    ]
+  },
+
+  "Payment & Billing": {
+    "description": "Problems involving payments, charges, payment methods, billing, or Amazon Pay.",
+    "examples": [
+      "My payment failed",
+      "Why was I charged twice?",
+      "Amazon Pay isn't working",
+      "Why do I need to revise my payment?"
+    ]
+  },
+
+  "Product & Seller Issues": {
+    "description": "Questions or complaints about products, sellers, product authenticity, pricing, or seller behavior.",
+    "examples": [
+      "Is this product genuine?",
+      "The seller sent me a damaged product",
+      "Why did the product price change?",
+      "I have a problem with the seller"
+    ]
+  },
+
+  "Technical / App Issues": {
+    "description": "Technical problems with Amazon websites, apps, media players, sign-up flows, or other digital services.",
+    "examples": [
+      "The Amazon app isn't working",
+      "I can't sign up for Amazon Music",
+      "The website keeps showing an error",
+      "My video player isn't working"
+    ]
+  },
+
+  "Customer Service / Complaint": {
+    "description": "Complaints about support quality, repeated unresolved problems, poor service, or explicit escalation requests.",
+    "examples": [
+      "Your customer service isn't helping",
+      "I want to speak to a manager",
+      "I've contacted support several times with no solution",
+      "This is terrible customer service"
+    ]
+  },
+
+  "General / Other": {
+    "description": "Amazon-related questions that do not clearly belong to another defined intent.",
+    "examples": [
+      "I need some help",
+      "Can someone assist me?",
+      "I have a question about Amazon"
+    ]
+  }
+}

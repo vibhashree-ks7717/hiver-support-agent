@@ -1,0 +1,118 @@
+{
+  "Technical Issue": {
+    "total_conversations": 5012,
+    "common_responses": [],
+    "example_conversations": [],
+    "response_patterns": {
+      "gratitude": 0,
+      "apology": 0,
+      "proactive": 0,
+      "escalation": 0
+    }
+  },
+  "General Inquiry": {
+    "total_conversations": 10874,
+    "common_responses": [
+      "@273717 Hi, I'm sorry the Finest pulled pork is tough and for the inconvenience caused. Please DM your name, address, clear pic of the receipt and pic of date/barcode area on the packet so I can refund you via Moneycard? 1/2"
+    ],
+    "example_conversations": [
+      {
+        "customer": "@Tesco finest pulled pork? \nWe pulled a muscle just trying to pull it apart. Had to revert to a damn steak knife. \nHad softer pork roasting joints htt",
+        "response": "@273717 Hi, I'm sorry the Finest pulled pork is tough and for the inconvenience caused. Please DM your name, address, clear pic of the receipt and pic of date/barcode area on the packet so I can refun"
+      }
+    ],
+    "response_patterns": {
+      "gratitude": 0,
+      "apology": 1,
+      "proactive": 0,
+      "escalation": 0
+    }
+  },
+  "Product Inquiry": {
+    "total_conversations": 3965,
+    "common_responses": [],
+    "example_conversations": [],
+    "response_patterns": {
+      "gratitude": 0,
+      "apology": 0,
+      "proactive": 0,
+      "escalation": 0
+    }
+  },
+  "Billing & Payment": {
+    "total_conversations": 1324,
+    "common_responses": [
+      "@137659 We\u2019d like to keep you as a customer. Please let me know how I can help. ^ig"
+    ],
+    "example_conversations": [
+      {
+        "customer": "@116035 Fuck your ATM fees, I'm hoping to move away from you soon. You greedy cunts.",
+        "response": "@137659 We\u2019d like to keep you as a customer. Please let me know how I can help. ^ig"
+      }
+    ],
+    "response_patterns": {
+      "gratitude": 0,
+      "apology": 0,
+      "proactive": 1,
+      "escalation": 0
+    }
+  },
+  "Order Status": {
+    "total_conversations": 3887,
+    "common_responses": [
+      "@119893 Just to calcify, are you speaking about the IPhone X? Is there a particular promotion that you are interested in? DM us to get started. -KT"
+    ],
+    "example_conversations": [
+      {
+        "customer": "@115714 Just preordered mine thru att but this sounds very good to go with @115714 can I switch once my phone gets here?",
+        "response": "@119893 Just to calcify, are you speaking about the IPhone X? Is there a particular promotion that you are interested in? DM us to get started. -KT"
+      }
+    ],
+    "response_patterns": {
+      "gratitude": 0,
+      "apology": 0,
+      "proactive": 0,
+      "escalation": 0
+    }
+  },
+  "Account & Access": {
+    "total_conversations": 289,
+    "common_responses": [],
+    "example_conversations": [],
+    "response_patterns": {
+      "gratitude": 0,
+      "apology": 0,
+      "proactive": 0,
+      "escalation": 0
+    }
+  },
+  "Complaint & Escalation": {
+    "total_conversations": 961,
+    "common_responses": [
+      "@180712 We're sorry to hear this, Elisa. You can use this link: https://t.co/S4XnKLft8h to fill in a Customer Relations form. ^AC"
+    ],
+    "example_conversations": [
+      {
+        "customer": "@British_Airways How can I file a complaint? I flew Alicante-Vancouver stopping in London and my luggage only got until London :(",
+        "response": "@180712 We're sorry to hear this, Elisa. You can use this link: https://t.co/S4XnKLft8h to fill in a Customer Relations form. ^AC"
+      }
+    ],
+    "response_patterns": {
+      "gratitude": 0,
+      "apology": 1,
+      "proactive": 0,
+      "escalation": 0
+    }
+  },
+  "Returns & Refunds": {
+    "total_conversations": 935,
+    "common_responses": [],
+    "example_conversations": [],
+    "response_patterns": {
+      "gratitude": 0,
+      "apology": 0,
+      "proactive": 0,
+      "escalation": 0
+    }
+  }
+}
