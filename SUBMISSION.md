@@ -291,11 +291,21 @@ Tested with real customer messages:
 
 \---
 
+\---
 
+
+
+\*\*Author:\*\* Vibhashree K S
 
 \*\*Status:\*\* ✅ Complete and Ready for Production
 
 \*\*Date:\*\* September 2026
 
 \*\*Proof:\*\* See screenshots and live demo
+
+
+
+\*\*Live Demo:\*\* https://hiver-support-agent-b6xd.onrender.com
+
+\*\*GitHub:\*\* https://github.com/vibhashree-ks7717/hiver-support-agent
 
